@@ -1,0 +1,62 @@
+h1 {
+    color: white !important;
+    text-align: center;
+    padding: 10px;
+    background-color: #cc0000 !important;
+    line-height: 1.5 !important;
+    margin-bottom: 1.5rem !important;
+}
+
+p {
+    margin-bottom: .5rem !important;
+}
+
+h5 {
+    margin-bottom: 1rem !important;
+}
+
+textarea {
+    padding: .75rem !important;
+    height: 250px;
+}
+
+.card {
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 1.5rem !important;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnPeriksa {
+    background-color: #cc0000 !important;
+    color: white !important;
+    margin-top: 1rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnPeriksaLagi {
+    background-color: white !important;
+    color: #cc0000 !important;
+    width: 35%;
+    align-self: center;
+    margin-top: 1rem;
+    font-weight: bold !important;
+    border: none !important;
+}
+
+.kata-benar {
+    /* text-decoration: underline; */
+    color: green;
+}
+
+.kata-salah {
+    text-decoration: underline;
+    color: red;
+}
